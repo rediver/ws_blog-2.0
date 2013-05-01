@@ -22,6 +22,16 @@ end
 
 gem 'jquery-rails'
 
+#bootstrap
+gem 'therubyracer' 
+gem "less-rails"
+gem "twitter-bootstrap-rails"
+gem "execjs"
+
+#debug
+gem 'better_errors'
+gem "binding_of_caller"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -32,7 +42,7 @@ gem 'jquery-rails'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
