@@ -3,8 +3,4 @@
   <h1><%=t '.title', :default => [:'helpers.titles.new', 'New %{model}'], :model => model_class.model_name.human %></h1>
 </div>
 
-	<%if admin_signed_in? %>
-		<%= render :partial => 'form' %>
-	<%else%>
-	<li><%= link_to('Login', new_admin_session_path) %></li>
-	<% end %>
+<%= render :partial => 'form' %>

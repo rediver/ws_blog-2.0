@@ -1,5 +1,10 @@
 <%- model_class = Post -%>
-<% if current_admin.admin? %>
+
+  <% if admin_signed_in? %>
+  <li>
+    <%= link_to('Logout', destroy_admin_session_path, :method => :delete) %>  <!-- JESLI URZ JEST ZALOGOWANY -->      
+  </li>
+
 <div class="page-header">
   <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
 </div>
@@ -33,10 +38,9 @@
     <% end %>
   </tbody>
 </table>
-
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_post_path,
             :class => 'btn' %>
 <% else %>
-   <%= link_to('login', admin_session_path) %>
+   <%= link_to('login', admin_session_path) %>  <!-- JESLI URZ JEST NIE ZALOGOWANY -->  
 <% end %>
