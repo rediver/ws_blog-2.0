@@ -10,6 +10,20 @@
   <dd><%= raw @post.desc %></dd>
 </dl>
 
+<div class="social-wrapper">
+	<div class="g-plus" data-action="share" data-annotation="none" data-height="54"></div>
+</div>
+  
+<script type="text/javascript">
+  window.___gcfg = {lang: 'pl'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
 <div id="comment-wrapper">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -24,6 +38,8 @@
     
   </script>
 </div>
+
+
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
