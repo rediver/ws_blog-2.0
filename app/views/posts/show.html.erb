@@ -10,6 +10,21 @@
   <dd><%= raw @post.desc %></dd>
 </dl>
 
+<div id="comment-wrapper">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+  
+      var disqus_shortname = 'ws-blog212334'; 
+  
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    
+  </script>
+</div>
+
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               posts_path, :class => 'btn'  %>
@@ -21,3 +36,7 @@
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-warning' %>
 </div>
+
+
+
+
