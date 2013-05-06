@@ -73,6 +73,7 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     friendly_id (4.0.9)
+    google-analytics-rails (0.0.4)
     highline (1.6.18)
     hike (1.2.2)
     i18n (0.6.4)
@@ -175,6 +176,7 @@ DEPENDENCIES
   devise
   execjs
   friendly_id (~> 4.0.9)
+  google-analytics-rails
   jquery-rails
   kaminari
   less-rails

@@ -30,3 +30,6 @@ gem "friendly_id", "~> 4.0.9" // not implemend completly<br>
 **PAGINATION** <br>
 gem 'kaminari'<br>
 gem 'bootstrap-kaminari-views'<br>
+
+**ANALITYKA** <br>
+google-analytics-rails<br>
