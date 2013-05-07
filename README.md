@@ -29,28 +29,28 @@ After completing work on the admin site work will begin on view for client
 
 ## Used gems
 
-1. BOOTSTRAP STYLING <BR>
+1. BOOTSTRAP STYLING
    * therubyracer
    * less-rails"
    * twitter-bootstrap-rails
    * execjs <BR>
 
-2. BETTER DEBUG <BR>
+2. BETTER DEBUG 
    * better_errors
    * binding_of_caller <BR>
 
-3. AUTHORIZATION <BR>
+3. AUTHORIZATION
    * devise <BR>
 
-4. WYSWIG <BR>
+4. WYSWIG 
    * bootstrap-wysihtml5-rails <BR>
 
-5. SEO - THAT'S MATTER <BR>
+5. SEO - THAT'S MATTER 
    * "friendly_id", "~> 4.0.9" // not implemend completly <BR>
 
-6. PAGINATION <BR>
+6. PAGINATION 
    * kaminari
    * bootstrap-kaminari-views <BR>
 
-7. ANALITYCS <BR>
+7. ANALITYCS 
    * google-analytics-rails
