@@ -1,12 +1,10 @@
-## General 
+# General 
 
-**This is a simple blogging engine - it can be used also as a CMS - has been implemented panel to posts management** 
+**This is a simple blogging engine - it can be used also as a CMS**
 
-_You can get to it by_ 
+## Done
 
-_localhost:3000/ws_admin_ 
-
-in the post section - have been implemented
+**Has been implemented panel to posts management** 
 
 1. adding post
 2. deleting
@@ -35,24 +33,24 @@ After completing work on the admin site work will begin on view for client
    * therubyracer
    * less-rails"
    * twitter-bootstrap-rails
-   * execjs
+   * execjs <BR>
 
 2. BETTER DEBUG <BR>
    * better_errors
-   * binding_of_caller
+   * binding_of_caller <BR>
 
 3. AUTHORIZATION <BR>
-   * devise
+   * devise <BR>
 
 4. WYSWIG <BR>
-   * bootstrap-wysihtml5-rails
+   * bootstrap-wysihtml5-rails <BR>
 
 5. SEO - THAT'S MATTER <BR>
-   * "friendly_id", "~> 4.0.9" // not implemend completly
+   * "friendly_id", "~> 4.0.9" // not implemend completly <BR>
 
 6. PAGINATION <BR>
    * kaminari
-   * bootstrap-kaminari-views
+   * bootstrap-kaminari-views <BR>
 
 7. ANALITYCS <BR>
    * google-analytics-rails
