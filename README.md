@@ -43,7 +43,7 @@ After completing work on the admin site work will begin on view for client
    * devise <BR>
 
 4. WYSWIG 
-   * bootstrap-wysihtml5-rails <BR>
+   * bootstrap-wysihtml5-rails <BR> <BR>
 
 5. SEO - THAT'S MATTER 
    * "friendly_id", "~> 4.0.9" // not implemend completly <BR>
