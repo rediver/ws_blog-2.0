@@ -33,24 +33,24 @@ After completing work on the admin site work will begin on view for client
    * therubyracer
    * less-rails"
    * twitter-bootstrap-rails
-   * execjs <BR>
+   * execjs <BR> <BR>
 
 2. BETTER DEBUG 
    * better_errors
-   * binding_of_caller <BR>
+   * binding_of_caller <BR> <BR>
 
 3. AUTHORIZATION
-   * devise <BR>
+   * devise <BR> <BR>
 
 4. WYSWIG 
    * bootstrap-wysihtml5-rails <BR> <BR>
 
 5. SEO - THAT'S MATTER 
-   * "friendly_id", "~> 4.0.9" // not implemend completly <BR>
+   * "friendly_id", "~> 4.0.9" // not implemend completly <BR> <BR>
 
 6. PAGINATION 
    * kaminari
-   * bootstrap-kaminari-views <BR>
+   * bootstrap-kaminari-views <BR> <BR>
 
 7. ANALITYCS 
    * google-analytics-rails
