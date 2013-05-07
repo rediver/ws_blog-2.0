@@ -37,9 +37,14 @@
     <dd><%= raw @post.desc %></dd>
   </dl>
 </div>
+
+<script src="//platform.linkedin.com/in.js" type="text/javascript">
+ lang: en_US
+</script>
   
 <div class="social-wrapper">
-	<div class="g-plus" data-action="share" data-annotation="none" data-height="54"></div>
+  <div class="g-plus" data-action="share" data-annotation="none" data-height="54"></div>
+  <script type="IN/Share" data-counter="top"></script>
 </div>
   
 <script type="text/javascript">
@@ -50,7 +55,9 @@
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
-</script>
+</script> 
+
+
 
 <div id="comment-wrapper">
   <div id="disqus_thread"></div>
