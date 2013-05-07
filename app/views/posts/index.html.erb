@@ -53,9 +53,13 @@
       
     	</tr>
     <% end %>
-  
+    
   </tbody>
 </table>
+
+<div class="pag-wrapper">
+	<%= paginate @posts, :theme => 'twitter-bootstrap' %>
+</div>
 
 <% else %>
    <%= link_to('login', admin_session_path) %>  <!-- JESLI URZ JEST NIE ZALOGOWANY -->  

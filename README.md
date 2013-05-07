@@ -33,3 +33,4 @@ gem 'bootstrap-kaminari-views'<br>
 
 **ANALITYKA** <br>
 google-analytics-rails<br>
+
