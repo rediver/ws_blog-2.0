@@ -33,11 +33,11 @@
       <tr>
         
         <td><%= link_to post.id, post_path(post) %></td>
-        <td><%= raw post.title %></td>
+        <td style="width: 300px;"><%= raw post.title %></td>
            
         <td style="width: 800px;"><%= raw post.desc %></td>
    
-        <td><%=l post.created_at %></td>
+        <td style="width: 180px;"><%=l post.created_at %></td>
         
         <td>
           <%= link_to t('.show', :default => t("helpers.links.show")),
