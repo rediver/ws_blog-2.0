@@ -11,7 +11,9 @@
 3. edition
 4. bootstrap wyswig 
 5. share G+, LinkedIN 
-6. comments 
+6. comments
+7. rss feed 
+8. simple view to client
 
 simple and transparent panel based on the twitter bootstrap for simple and clear navigation
 
