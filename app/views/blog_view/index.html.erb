@@ -1,0 +1,13 @@
+<% content_for :head, auto_discovery_link_tag(:rss, posts_url(format: "rss")) %>
+
+<%= link_to image_tag("feed-icon-28x28.png"), "/posts.rss" %>
+
+<br /><br />
+
+<% @posts.each do |post| %>
+  
+  <%=  post.title %><br />
+  <%=  post.desc %><br /><br /><br />
+
+<% end %>
+

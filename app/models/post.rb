@@ -1,3 +1,5 @@
 class Post < ActiveRecord::Base
-  attr_accessible :desc, :title    
+  belongs_to :blog_views 
+  has_one :blog_view 
+  attr_accessible :desc, :title
 end

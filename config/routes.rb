@@ -3,6 +3,8 @@ WsCms::Application.routes.draw do
   devise_for :admins
 
   resources :posts 
+  resources :blog_view
+  
   root :to => 'posts#index'
   
   # The priority is based upon order of creation:
