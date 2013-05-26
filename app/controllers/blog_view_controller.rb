@@ -16,4 +16,5 @@ class BlogViewController < ApplicationController
         format.json { render json: @post }
     end
   end
+  
 end

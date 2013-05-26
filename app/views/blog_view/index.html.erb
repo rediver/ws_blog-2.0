@@ -1,5 +1,4 @@
 <% content_for :head, auto_discovery_link_tag(:rss, posts_url(format: "rss")) %>
-
 <%= link_to image_tag("feed-icon-28x28.png"), "/posts.rss" %>
 
 <br /><br />
@@ -7,7 +6,8 @@
 <% @posts.each do |post| %>
   
   <%=  post.title %><br />
-  <%=  post.desc %><br /><br /><br />
+  <%=  raw(truncate(post.desc, :length => 675)) %><br />
+  <%=  link_to(raw("Zobacz więcej &rarr;"), blog_view_path(:post)) %><br /><br />
 
 <% end %>
 
