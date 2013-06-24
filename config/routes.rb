@@ -1,11 +1,11 @@
 WsCms::Application.routes.draw do
   
   devise_for :admins
-
   resources :posts 
-  resources :blog_view
-  
-  root :to => 'posts#index'
+
+  root :to => 'blog_views#index'
+  #get '/:id' => 'blog_views#show'
+  resources :blog_views, :path => "/"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

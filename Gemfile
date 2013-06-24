@@ -28,9 +28,11 @@ gem "twitter-bootstrap-rails"
 gem "execjs"
 
 #debug
-gem 'better_errors'
-gem "binding_of_caller"
-gem 'devise'
+group :development do
+  gem 'better_errors'
+  gem "binding_of_caller"
+  gem 'devise'
+end
 
 #wyswig 
 gem 'bootstrap-wysihtml5-rails'
@@ -46,6 +48,7 @@ gem 'bootstrap-kaminari-views'
 gem 'google-analytics-rails'
 gem 'nested_scaffold'
 
+gem 'carrierwave'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

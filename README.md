@@ -20,12 +20,10 @@ simple and transparent panel based on the twitter bootstrap for simple and clear
 ## To Do 
 
 currently work is in progress on
-
-1. Google analitycs api integration 
-2. Amazon aws integration 
-3. Seo-friendly url 
-4. Cron
-5. Categories 
+ 
+1. Amazon aws integration 
+2. Seo-friendly url 
+3. Categories 
 
 After completing work on the admin site work will begin on view for client
 
