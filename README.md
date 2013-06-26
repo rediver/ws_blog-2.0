@@ -33,7 +33,7 @@ After completing work on the admin site work will begin on view for client
    * therubyracer
    * less-rails"
    * twitter-bootstrap-rails
-   * execjs <BR> <BR>
+   * execjs
 
 2. BETTER DEBUG 
    * better_errors
