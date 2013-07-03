@@ -1,13 +1,41 @@
-<% content_for :head, auto_discovery_link_tag(:rss, posts_url(format: "rss")) %>
-<%= link_to image_tag("feed-icon-28x28.png"), "/posts.rss" %>
+<%# content_for :head, auto_discovery_link_tag(:rss, posts_url(format: "rss")) %>
+<%# link_to image_tag("feed-icon-28x28.png"), "/posts.rss" %>
 
-<br /><br />
+<%= render 'shared/header' %>
 
 <% @posts.each do |post| %>
-  
-  <%=  post.title %><br />
-  <%=  raw(truncate(post.desc, :length => 675)) %><br />
-  <%=  link_to "Zobacz więcej &raquo;".html_safe, blog_view_path(post) %><br /><br />
 
+  <div id="content-wrapper">
+  <section class="pages clearfix">
+
+    <div class="content-inner-left"> 
+    
+      <article class="blog-post">
+      <div class="blog-post-content">
+      
+           <div class="blog-post-featured-media">
+             <div class="thumb">
+               <%= image_tag post.image_url(:thumb).to_s %>
+             </div>    
+           </div> 
+           
+           <h2 class="blog-post-title">
+            <%=  post.title %><br /> 
+           </h2>
+           <br />  
+           <p class="blog-post-text">  
+             <%=  raw(truncate(post.desc, :length => 675)) %><br />
+             <%=  link_to "Zobacz więcej &raquo;".html_safe, blog_view_path(post) %><br /><br />  
+           </p> 
+             
+      </div>
+      </article>   
+        
+    </div>  
+      
+  </section>  
+  </div>  
+    
+    
 <% end %>
 
