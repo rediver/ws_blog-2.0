@@ -23,7 +23,7 @@
             <%=  post.title %><br /> 
            </h2>
            <br />  
-           <p class="blog-post-text">  
+           <p class="blog-post-text" style="font-size: 14px;">  
              <%=  raw(truncate(post.desc, :length => 675)) %><br /><br />
              <%=  link_to "Zobacz więcej &raquo;".html_safe, blog_view_path(post) %><br /><br />  
            </p> 
