@@ -1,2 +1,36 @@
-<%= raw(@post.title) %>
-<%= @post.desc.html_safe %>
+<%= render 'shared/header' %>
+
+<div id="content-wrapper">
+  <section class="pages clearfix">
+
+    <!--start section title-->
+
+    <!--start content left-->
+    <div class="content-inner-left">
+
+      <article class="blog-post">
+          
+        <div class="blog-post-content">      
+    
+          <div class="blog-post-main-image">
+            <%= image_tag @post.image_url(:thumb).to_s %>
+          </div>  
+          
+          <h2 class="blog-post-title">
+          <%= raw(@post.title) %>
+          </h2>
+          
+          <br />
+          
+          <p class="blog-post-text">
+          <%= @post.desc.html_safe %>
+          </p>
+            
+        </div>    
+          
+      </article> 
+          
+     </div>      
+          
+  </section>
+</div>  
