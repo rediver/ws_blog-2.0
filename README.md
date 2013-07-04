@@ -14,6 +14,8 @@
 6. comments
 7. rss feed 
 8. simple view to client
+9. Seo-friendly url 
+10. Amazon AWS integration
 
 simple and transparent panel based on the twitter bootstrap for simple and clear navigation
 
@@ -21,9 +23,7 @@ simple and transparent panel based on the twitter bootstrap for simple and clear
 
 currently work is in progress on
  
-1. Amazon aws integration 
-2. Seo-friendly url 
-3. Categories 
+1. Categories 
 
 After completing work on the admin site work will begin on view for client
 
