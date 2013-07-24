@@ -37,11 +37,6 @@ ActiveRecord::Schema.define(:version => 20130614104239) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "blogs", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "friendly_id_slugs", :force => true do |t|
     t.string   "slug",                         :null => false
     t.integer  "sluggable_id",                 :null => false

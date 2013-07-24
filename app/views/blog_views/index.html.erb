@@ -19,7 +19,7 @@
       
            <div class="blog-post-featured-media">
              <div class="thumb">
-               <%= image_tag post.image_url(:thumb).to_s %>
+               <%= image_tag post.image_url(:thumb).to_s if post.image.present? %>
              </div>    
            </div> 
            
