@@ -3,6 +3,7 @@ WsCms::Application.routes.draw do
   devise_for :admins
   resources :posts 
 
+  match 'contact' => 'contact_us/contacts#new'
   root :to => 'blog_views#index'
   #get '/:id' => 'blog_views#show'
   resources :blog_views, :path => "/"
