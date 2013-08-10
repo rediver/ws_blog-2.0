@@ -1,6 +1,3 @@
-/*------------------------------------------------------
-
-	Author URI: http://themeforest.net/user/udfrance
 
 /*--------------------------------------------------------
 	1.RESETS & MISC
@@ -48,7 +45,7 @@
 		/* main menu
 		----------------------------*/
 		
-		#header-wrapper #header-inner header nav ul.navigation{position:relative;list-style:none;float:right;font-size:13px; margin:28px 0 0 0; text-transform:uppercase;}
+		#header-wrapper #header-inner header nav ul.navigation{position:relative;list-style:none;float:right;font-size:13px; margin:33px 0 0 0; text-transform:uppercase;}
 		#header-wrapper #header-inner header nav ul.navigation li{float: right;margin:0 0 0 0px;line-height:45px; padding-right: 0px; margin-left: 30px;}
 		#header-wrapper #header-inner header nav ul.navigation li:last-child{padding-right:0;}
 		#header-wrapper #header-inner header nav ul.navigation li a{font-family: 'Quicksand', sans-serif;color:#999; text-decoration:none;  padding: 5px 0;}
@@ -545,6 +542,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 /*--------------------------------------------------------
 	iv.--TYPOGRAPHY & LINKS & SELECTION
 --------------------------------------------------------*/
+
+  
 
 	/*font & color*/
 	h1,h2,h3,h4,h5,h6{font-family: 'Fjalla One', Arial, sans-serif;letter-spacing: 0; margin-bottom:50px; color:#000; text-transform: uppercase;}

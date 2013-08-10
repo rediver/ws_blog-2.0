@@ -9,6 +9,10 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
- *= require bootstrap-wysihtml5	 
+ *= require bootstrap-wysihtml5
+ *= require bootstrap_and_overrides 
+ *= blog_view
+ *= posts
+ *= reset
+ *= scaffolds 
 */

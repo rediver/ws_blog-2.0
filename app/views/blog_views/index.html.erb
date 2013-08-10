@@ -1,6 +1,9 @@
 <%# content_for :head, auto_discovery_link_tag(:rss, posts_url(format: "rss")) %>
 <%# link_to image_tag("feed-icon-28x28.png"), "/posts.rss" %>
 
+<%= stylesheet_link_tag "theme" %>
+<%= stylesheet_link_tag "udt_media_queries" %>
+
 <% content_for :head do %>
   <%= stylesheet_link_tag "theme" %>
 <% end %> 
