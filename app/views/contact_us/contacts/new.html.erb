@@ -12,7 +12,7 @@
         
 <%= form_for @contact, :url => contacts_path, :html => {:class => 'formtastic'} do |f| %>
   <% if ContactUs.require_name %>
-      <%= f.label :name, (t('.name') + content_tag(:abbr, '', :class => 'required')).html_safe %>
+        <span class="contact-label"><%= f.label :name, (t('.name') + content_tag(:abbr, '', :class => 'required')).html_safe %></span>
       <%= f.text_field :name %>
       <% if f.object.errors[:name].present? %>
         <p class='inline-error'><%= f.object.errors[:name].join(' and ') %></p>
