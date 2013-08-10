@@ -3,7 +3,7 @@
 <div class="navbar">
   <div class="navbar-inner">
 
-      <li class="brand"><h2>POST</h2></li>
+      <li class="brand"><h2 class="admin">POST</h2></li>
       
         <ul class="nav pull-right back-edit">   
           		
@@ -49,7 +49,7 @@
 </div>
 
 <div id="image_view">
-  <%= image_tag @post.image_url(:thumb).to_s %>
+  <%= image_tag @post.image_url(:thumb).to_s if @post.image.present? %>
 </div>
   
 <div class="tabbable"> <!-- Only required for left/right tabs -->

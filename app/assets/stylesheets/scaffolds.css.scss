@@ -23,17 +23,6 @@ pre {
   font-size: 11px;
 }
 
-a {
-  color: #000;
-  &:visited {
-    
-  }
-  &:hover {
-    color: #fff;
-    text-decoration: none;  
-  }
-}
-
 div {
   &.field, &.actions {
     margin-bottom: 10px;
@@ -87,7 +76,7 @@ width: 600px;
   font-size: 35px;
   margin-top: 10px;
   color: #707070;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .contact-label {
@@ -95,6 +84,29 @@ width: 600px;
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300; 
     font-size: 15px; 
-    padding: 5px 0 5px;
+    padding: 15px 0 15px;
+    margin: 15px 0 15px;    
 }  
-  
+
+.submit-create {
+color: #808080;  
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+border-radius: 2px;  
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid transparent;
+-webkit-user-select: none;
+font-family: 'Open Sans', sans-serif; 
+}
+
+.admin {
+font-family: 'Open Sans', sans-serif; 
+font-size: 32px;
+font-weight: bold;  
+}  

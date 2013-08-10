@@ -8,7 +8,7 @@
       <article class="blog-post">
       <div class="blog-post-content">
 
-<p class="contact"><%= t('.contact_us') %></p>
+        <p class="contact"><%= t('.contact_us') %></p><br />
         
 <%= form_for @contact, :url => contacts_path, :html => {:class => 'formtastic'} do |f| %>
   <% if ContactUs.require_name %>
@@ -44,8 +44,10 @@
       <p class='inline-error'><%= f.object.errors[:message].join(' and ') %></p>
     <% end %>
   </div>
+        
+        
   
-    <%= f.submit :submit, :alt => t('.submit'), :class => 'submit create', :label => t('.submit'), :title => t('.submit') %>
+  <%= f.submit :submit, :alt => t('.submit'), :class => 'submit-create', :label => t('.submit'), :title => t('.submit') %>
   
 <% end %>
 
