@@ -27,6 +27,9 @@ end
 
 gem 'jquery-rails'
 
+# authentication
+gem 'devise'
+
 #bootstrap
 gem 'therubyracer' 
 gem "less-rails"
@@ -37,7 +40,6 @@ gem "execjs"
 group :development do
   gem 'better_errors'
   gem "binding_of_caller"
-  gem 'devise'
 end
 
 #wyswig 
