@@ -72,6 +72,5 @@ gem 'cloudinary'
 gem 'capistrano'
 
 # To use debugger
-gem 'debugger', '1.5.0'
 gem 'contact_us', '~> 0.4.0'
 gem 'postmark'
