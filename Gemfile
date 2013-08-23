@@ -76,3 +76,4 @@ gem 'capistrano'
 # To use debugger
 gem 'contact_us', '~> 0.4.0'
 gem 'postmark'
+gem 'email_validator'
