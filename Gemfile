@@ -6,6 +6,7 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -49,7 +50,10 @@ gem 'google-analytics-rails'
 gem 'nested_scaffold'
 
 gem 'carrierwave'
-gem 'rmagick'
+gem 'rmagick', '2.13.2', :git=>'http://github.com/rmagick/rmagick.git'
+gem 'fog'
+gem 'cloudinary'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -63,4 +67,4 @@ gem 'rmagick'
 gem 'capistrano'
 
 # To use debugger
-gem 'debugger'
+gem 'debugger', '1.5.0'
